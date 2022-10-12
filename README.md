@@ -1,1 +1,3 @@
-# AQG
+AQG, anime quote generator API
+
+
