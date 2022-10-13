@@ -1,12 +1,14 @@
-body{
+body {
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #f4a261;
+    font-family: sans-serif;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     width: 75%;
@@ -14,27 +16,37 @@ body{
     border-radius: 20px;
     background-color: #e76f51;
 }
-#char{
+
+#char {
     align-self: flex-end;
     text-align: end;
     padding-bottom: 5px;
     padding-right: 5px;
     font-size: 15px;
 }
-#x{
+
+#x {
     line-height: 1.2em;
     padding: 10px;
     font-size: 20px;
 }
-button{
+
+button {
     margin-top: 10px;
     padding: 15px 45px;
     border: 2px solid black;
     border-radius: 20px;
+    font-size: 20px;
+    transition: .3s ease-in-out;
 }
-button:hover{
+
+button:hover {
     background-color: black;
     color: white;
     border: 2px solid white;
     cursor: pointer;
+}
+
+.info {
+    font-size: 20px;
 }
